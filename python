@@ -1,0 +1,16 @@
+def get_poisar_data():
+    poisar = {
+        "Name": "Poisar",
+        "Parent_Suburb": "Kandivali",
+        "District": "Mumbai Suburban",
+        "Metro_Station": "Poisar (Line 2A)",
+        "Notable_Site": "Poisar Gymkhana",
+        "Pincode": 400067
+    }
+
+    print(f"--- Quick Fact Sheet: {poisar['Name']} ---")
+    for key, value in poisar.items():
+        print(f"{key:15}: {value}")
+
+if __name__ == "__main__":
+    get_poisar_data()
